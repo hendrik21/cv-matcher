@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-matcher"
+version = "0.1.0"
+
+[project.scripts]
+cv = "app.cli:main"
+
+[tool.setuptools]
+packages = ["app"]

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data runtime
+data/tracking.json
+data/cvs/
+data/output/
+*.pdf
+
+# Logs
+*.log
+
+# OS
+.DS_Store
