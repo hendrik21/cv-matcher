@@ -42,7 +42,7 @@ app/
 
 ### 1. Clonar repositorio
 ```bash
-git clone <repo-url>
+git clone https://github.com/hendrik21/cv-matcher.git
 cd cv-matcher
 ```
 
@@ -177,8 +177,6 @@ Copyright (c) 2026 Hendrik López
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
-
-(licencia completa incluida en LICENSE si se agrega archivo)
 
 ---
 
