@@ -79,25 +79,25 @@ ollama run qwen2.5:7b
 
 ### ➕ Agregar una vacante
 ```bash
-cv-matcher add --title "Backend Developer" --company "Emapta"
+cv add --title "Backend Developer" --company "Emapta"
 ```
 Opcional con scraping:
 ```bash
-cv-matcher add --title "Backend Developer" --company "Emapta" --url <job-url>
+cv add --title "Backend Developer" --company "Emapta" --url <job-url>
 ```
 
 ---
 
 ### 📋 Listar vacantes
 ```bash
-cv-matcher list
+cv list
 ```
 
 ---
 
 ### 🔄 Actualizar estado
 ```bash
-cv-matcher update --id <job-id> --status "Applied"
+cv update --id <job-id> --status "Applied"
 ```
 
 Estados disponibles:
